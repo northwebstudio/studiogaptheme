@@ -41,6 +41,7 @@ function studiogaptheme_info() {
     return theme;
   }
   catch (error) { drupalgap_error(error); }
+  console.log('Reading info file');
 }
 //Add css file for studiogaptheme
 drupalgap_add_css('app/themes/studiogaptheme/studiogaptheme.css');
