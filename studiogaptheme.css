@@ -11,8 +11,7 @@ body, input, select, textarea, button, .ui-btn {
   line-height: auto;
 }
 h1,h2,h3,h4 {
-  font-weight: normal;
-  color: #696969;
+  color: #333333;
 }
 body .ui-page-theme-a, body {
   color: #696969;
@@ -23,15 +22,15 @@ body .ui-page-theme-a, body {
   top: 44px;
 }
 .region_header,.region_footer{
-  background: #333333;
+  background: #085a78;
 }
 .region_header a.ui-btn {
   border: 0;
-  background: #FFF;
+  background: #3D99BD;
 }
 .ui-panel {
   color: #696969;
-  background-color: #333333;
+  background-color: #87BDE6;
 }
 body div[data-role="header"] div[data-role="controlgroup"] .ui-controlgroup-controls .ui-btn-icon-notext {
   padding: 3px 23px 3px 5px;
@@ -43,8 +42,7 @@ body div[data-role="header"] div[data-role="controlgroup"] .ui-controlgroup-cont
 html .ui-bar-b .ui-panel .ui-btn, html .ui-body-b .ui-panel .ui-btn {
   text-shadow: none;
   color: #696969;
-  font-size: 12px;
-  font-weight: normal;
+  font-size: 12px; 
   padding: 12px 0 12px 36px;
   border-color: rgba(0,0,0,0.1);
 }
@@ -56,18 +54,20 @@ html .ui-bar-b .ui-panel .ui-btn:after {
   background-color: #7BC7F3;
 }
 body .ui-page-theme-a .ui-bar-inherit {
-  background: #F9F9F9;
+  background-color: #F2F3F5;
 }
 h1.ui-title {
-  color: #696969;
-  font-weight: normal;
   font-size: 14px;
+  color: #085a78;
 }
 .ui-page-theme-b .ui-btn.ui-btn-active, html .ui-bar-b .ui-btn.ui-btn-active, html .ui-body-b .ui-btn.ui-btn-active, html body .ui-group-theme-b .ui-btn.ui-btn-active, html head+body .ui-btn.ui-btn-b.ui-btn-active, .ui-page-theme-b .ui-checkbox-on:after, html .ui-bar-b .ui-checkbox-on:after, html .ui-body-b .ui-checkbox-on:after, html body .ui-group-theme-b .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-b:after, .ui-page-theme-b .ui-flipswitch-active, html .ui-bar-b .ui-flipswitch-active, html .ui-body-b .ui-flipswitch-active, html body .ui-group-theme-b .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-b.ui-flipswitch-active, .ui-page-theme-b .ui-slider-track .ui-btn-active, html .ui-bar-b .ui-slider-track .ui-btn-active, html .ui-body-b .ui-slider-track .ui-btn-active, html body .ui-group-theme-b .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-b .ui-btn-active {
-  background-color: #B6DB49;
-  border-color: #B6DB49;
+  background-color: #08b;
+  border-color: #0E4B61;
   color: #fff;
   text-shadow: 0 1px 0 #08b;
+}
+.ui-page-theme-b .ui-btn:hover, html .ui-bar-b .ui-btn:hover, html .ui-body-b .ui-btn:hover, html body .ui-group-theme-b .ui-btn:hover, html head+body .ui-btn.ui-btn-b:hover {
+  background-color: #5FCEE2;
 }
 .padding-small{
   padding:10px;
